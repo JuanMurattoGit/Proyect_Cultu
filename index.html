@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+crossorigin="anonymous">
+    
+    <title>Demo Cultu</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- BARRA DE NAVEGACION -->
+        <!-- ******************************************************************************************** -->
+        <div class="container-nav">
+            <nav class="navbar">
+                <a href="#" class="brand"><img src="imagenes/escudoCultu.jpg" height="70px" alt=""></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contacto.html">contacto</a></li>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Actididades</a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </div>
+        <!-- ************************************************************************************* -->
+        <!-- ENCABEZADO -->
+        <!-- ********************************************************************************************** -->
+        <div class="encabezado">
+            <div id="subt">
+                <h1>JUVENTUD CULTURAL DE TAPIALES</h1>
+                <h2>Familia, Amistad</h2>
+                <P>PERTENENCIA!!!!
+                <P>
+            </div>
+        </div>
+        <!-- ******************************************************************************************** -->
+        <div class="flex">
+            <div class="caja" id="c1">
+
+                <h2>Centro Cultural y Recreativo "Juventud de Tapiales"</h2>
+                <p>El club y Centro Cultural Juventud de Tapiales fue fundado en Noviembre de 1929, en
+                    Tapiales todos lo nombran como "El Cultural" por su biblioteca mítica, una de las más
+                    completas de La Matanza. Entre sus ejemplares hay, por ejemplo, varias decenas de
+                    manuales que rescatan el estilo educativo de las primeras décadas del siglo pasado.</p>
+
+            </div>
+
+            <div class="caja" id="c2">
+
+                Nuestros productos<br /><br />
+
+                <p>GALERIA</p>
+                <img src="imagenes/4222_photo_74637.jpg" alt="Baby" width="150">
+                <img src="imagenes/Pileta.jpg" alt="pileta" width="150">
+                <img src="imagenes/Escuelita.jpg" alt="escuelita" width="150">
+
+            </div>
+
+            <div class="caja" id="c3">
+
+                <!-- inegreso de formulario -->
+                <h2>FORMULARIO DE CONTACTO</h2>
+                <form id="miForm">
+                    <label>NOMBRE</label>
+                    <input type="text" /><br> <!-- Con el required se solicita dato obligatorio -->
+
+                    <label>APELLIDO</label>
+                    <input type="text" /><br>
+
+                    <!-- <label>EMAIL </label>
+            <input type="text"/><br> -->
+                    <!-- Barra con ejemplo degradado dentro del campo -->
+                    <label for="disabledTextInput" class="form-label">Telefono</label>
+                    <input type="text" id="disabledTextInput" class="form-control" required
+                        placeholder="01154911111111"><br>
+                    <!-- Barra de rango -->
+                    <label for="customRange2" class="form-label">Rango</label>
+                    <input type="range" class="form-range" min="0" max="5" id="customRange2"><br>
+                    <!-- Barra con ejemplo en campo auxiliar  -->
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <input class="form-control" id="disabledInput" type="text" placeholder="Ejem xxx@gmail.com..."
+                        disabled><br>
+                    <!-- Campo comentario -->
+                    <span class="input-group-text">Comentarios</span>
+                    <textarea class="form-control" aria-label="comentario"></textarea><br>
+                    <!-- campo flotante -->
+                    <label for="floatingPassword">Password</label>
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password"><br>
+
+                    <label for="SEXO" class="Sexo">Sexo</label>
+                    <select> <!-- selector con menu desplegable -->
+                        <option value="HOMBRE">Hombre</option>
+                        <option value="MUJER">Mujer</option>
+                        <option value="OTRO">Otro</option>
+
+                    </select>
+                    <!-- Primer Checkbox con opcion destildado -->
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Checkbox 1
+                    </label>
+                    <!-- Segundo Checkbox con opcion tildado -->
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Checked checkbox
+                    </label><br>
+                    <button type="submit" id="miButton">Enviar</button><!--< boton de enviar -->
+
+                </form>
+
+            </div>
+
+            <div class="caja" id="c4">
+
+                <h2 id="c4h2">Cualquier info</h2>
+
+                <ul type="circle">
+                    <li id="Natacion">Natacion</li>
+                    <li id="escuelita">Escuelita</li>
+                    <li id="futsal">Futsal</li>
+                    <li id="baby">Baby futbol</li>
+                </ul>
+            </div>
+
+            <div class="caja" id="c5">
+
+                Tel: 5555-5555 /
+                Curapaligue 1246, Tapiales, Buenos Aires, Argentina /
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-
+    DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-
+    ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

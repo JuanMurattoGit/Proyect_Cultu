@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleCultu.css">
+    <title>Cultural || Contacto </title>
+</head>
+<body class="body-contacto">
+    <div class="container-nav">
+        <nav class="navbar">
+            <a href="#" class="brand"><img src="imagenes/escudoCultu.jpg" height="70px" alt=""></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+                <li><a href="#">Quienes somos</a></li>
+                <li><a href="#">Actididades</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </div>
+    <div class="container-form">
+        <label>NOMBRE</label>
+                    <input type="text" /><br> <!-- Con el required se solicita dato obligatorio -->
+
+                    <label>APELLIDO</label>
+                    <input type="text" /><br>
+
+                    <!-- <label>EMAIL </label>
+            <input type="text"/><br> -->
+                    <!-- Barra con ejemplo degradado dentro del campo -->
+                    <label for="disabledTextInput" class="form-label">Telefono</label>
+                    <input type="text" id="disabledTextInput" class="form-control" required
+                        placeholder="01154911111111"><br>
+                    <!-- Barra de rango -->
+                    <label for="customRange2" class="form-label">Rango</label>
+                    <input type="range" class="form-range" min="0" max="5" id="customRange2"><br>
+                    <!-- Barra con ejemplo en campo auxiliar  -->
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <input class="form-control" id="disabledInput" type="text" placeholder="Ejem xxx@gmail.com..."
+                        disabled><br>
+                    <!-- Campo comentario -->
+                    <span class="input-group-text">Comentarios</span>
+                    <textarea class="form-control" aria-label="comentario"></textarea><br>
+                    <!-- campo flotante -->
+                    <label for="floatingPassword">Password</label>
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password"><br>
+
+                    <label for="SEXO" class="Sexo">Sexo</label>
+                    <select> <!-- selector con menu desplegable -->
+                        <option value="HOMBRE">Hombre</option>
+                        <option value="MUJER">Mujer</option>
+                        <option value="OTRO">Otro</option>
+
+                    </select>
+                    <!-- Primer Checkbox con opcion destildado -->
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Checkbox 1
+                    </label>
+                    <!-- Segundo Checkbox con opcion tildado -->
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Checked checkbox
+                    </label><br>
+                    <button type="submit" id="miButton">Enviar</button><!--< boton de enviar -->
+
+    </div>
+
+    <script src="scriptCultu.js"></script>
+</body>
+</html>
